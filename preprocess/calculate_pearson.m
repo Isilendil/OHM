@@ -20,9 +20,9 @@ function calculate_pearson( data_file, affinity_file)
     text_num = size(text_fea,1);
     image_num = size(image_fea,1);
     co_image_num = size(co_image_fea,1);
-    cii_sim = zeros( co_image_num,image_num );
+    cii = zeros( co_image_num,image_num );
     co_text_num = size(co_text_fea,1);
-    ctt_sim = zeros( co_text_num,text_num );
+    ctt = zeros( co_text_num,text_num );
 
      
     %  co-image to image
